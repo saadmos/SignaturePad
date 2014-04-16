@@ -1,0 +1,28 @@
+{
+    "name": "SignaturePad",
+    "studioName": "SignaturePad",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "Widget Developer",
+    "contributors": [
+        "Developer 1",
+        "Developer 2"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "SignaturePad/lib/js/signature_pad.min.js", "path": "WIDGETS_CUSTOM"},
+        {"id": "SignaturePad/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "SignaturePad/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "SignaturePad/css/signature_pad.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "SignaturePad/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
