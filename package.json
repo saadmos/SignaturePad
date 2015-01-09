@@ -15,7 +15,7 @@
         "url": "https://github.com/developer/Widget.git"
     },
     "keywords": ["wakanda", "widget"],
-    "engines": {"wakanda": ">= 8"},
+    "engines": {"wakanda": ["8", "9"]},
     "license": "MIT",
     "loadDependencies": [
         {"id": "Widget_V2"},
